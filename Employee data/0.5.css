@@ -1,0 +1,90 @@
+    table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+    th, td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+    }
+    th {
+        background-color: #f2f2f2;
+    }
+    body {
+background-image: linear-gradient(-30deg, #e100ff, #7e5cec);
+min-height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+font-family:sans-serif;
+}
+    .container {
+    padding: 15px 25px 50px 25px;
+    width: 550px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    margin: auto;
+    margin-top: 10%;
+    background: rgba(255,255,255,0.45);
+-webkit-backdrop-filter: blur(1px);
+backdrop-filter: blur(1px);
+border: 1px solid rgba(255,255,255,0.225);
+    }
+    header h2 {
+    padding: 10px;
+    text-align: center;
+  font-size:40px;
+    
+    }
+    .button {
+  background-image: linear-gradient(-180deg, #37AEE2 0%, #1E96C8 100%);
+  border-radius: .5rem;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-size: 16px;
+  justify-content: center;
+  padding: 1rem 1.75rem;
+  text-decoration: none;
+  width:40%;
+  border: 0;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin: auto;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+  line-height:1;
+  margin-left: 19%;
+}
+
+.button:hover {
+  background-image: linear-gradient(-120deg, #1D95C9 0%, #17759C 100%);
+
+}   
+label , p{
+    font-size: 20px;
+}
+.name , span {
+padding: 15px;
+font-size: 20px;
+font-weight: 800px;
+text-align: center;
+}
+table{
+align-items: center;
+}
+.em{
+  padding-left: 65px;
+}
+.role{
+    padding-left:13%;
+}
+.Salary{
+    padding-left: 55px;
+}
+p{
+    padding-left:17%;
+}

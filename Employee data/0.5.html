@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Employee Data</title>
+<link rel="stylesheet" href="0.5.css">
+<script src="0.5.js"></script>
+
+</head>
+<body>
+
+<header class="container">
+    <h2>Employee Data</h2>
+
+<form onsubmit="event.preventDefault(); submitForm();">
+    <div class="em">
+        <label type="empName" class="name">Employee Name</label><span>:</span>
+        <input type="text" id="empName" required><br><br>
+    </div>
+    <div class="role">
+        <label type="empRole" class="name">Employee Role</label><span>:</span>
+    <select  type="text" id="empRole" required>
+        <option value="Manager">Manager</option>
+        <option value="Accountant">Accountant</option>
+        <option value="Cashier">Cashier</option>
+        <option value="Receptionist">Receptionist</option>
+        <option value="Janitor">Janitor</option>
+    </select><br><br>
+    </div>
+
+   <div class="Salary">
+    <label type="empSalary" class="name">Employee Salary</label><span>:</span>
+    <input type="number" id="empSalary" required><br>
+   </div>
+    <p>Total Salary <span>:</span> <span id="totalSalary"></span>
+    <button type="submit" class="button">Add Employee</button><br>
+    
+    <table id="employeeTable">
+        <tr>
+            <th>Name</th>
+            <th>Role</th>
+            <th>Salary</th>
+        </tr>
+    </table>
+    
+</form>
+</header>
+</body>                 
+</html>
